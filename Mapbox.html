@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<h1><font size = "8", color = "#004A8D",FONT FACE="modern">MEATPACKING DISTRICT</h1>
+<p><font size = "6", color = "#5D6468">HORATIO STREET TO 15TH STREET | NEW YORK, NY</p>
+
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=1024, user-scalable=no">
+    <div class='custom-popup' id='map'></div>
+    <style>
+      html { height: 100% }
+      body { height: 300px; margin: 0; padding: 0;}
+      #map{ height: 300px;width: 800px}
+    </style>
+    <link rel="stylesheet" href="leaflet.css" />
+
+<script src="leaflet-src.js"></script>
+<script type="text/javascript" src="./leaflet.ajax.js"></script>
+<script src="spin.js"></script>
+<script src="leaflet.spin.js"></script>
+
+
+
+
+    <title>Meatpacking</title>
+    </head>
+    <body>
+    <div id="map"></div>
+      <script type="text/javascript">
+      var m= L.map('map').setView([40.740598, -74.007769], 17.6);
+      
+	  var osmDataAttr = 'Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
+      var mopt = {
+          url: 'https://api.mapbox.com/styles/v1/mapbox/light-v9/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoicHJleWFua2FoIiwiYSI6ImUxN2UwNWNjMTdmMzkxMTRjOGYxM2NlYzlmNjU5NWIyIn0.p6kFHJp_6K57LBchPEAQsg',
+          options: {attribution:'© <a href="https://www.mapbox.com/map-feedback/">Mapbox</a> ©'}
+        };
+      //var osm = L.tileLayer("http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{attribution:osmDataAttr});
+      var mq=L.tileLayer(mopt.url,mopt.options);
+
+      mq.addTo(m);
+
+      var baseMaps = {
+          "Mapbox Streets": mq,
+      };
+
+
+var AvailabilitiesIcon = L.icon({
+  iconUrl: 'https://maxcdn.icons8.com/Color/PNG/24/Media_Controls/record-24.png',
+  iconSize: [15, 15],
+  //iconAnchor: [16, 37],
+  popupAnchor: [0, -37]
+});
+var ComparablesIcon = L.icon({
+  iconUrl:'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGgAAABoCAYAAAAdHLWhAAAFHklEQVR4Xu2cMXbbRhCGZyjw0V18g5AF2YYy1Yc+QZQTWGoSsrJ0g+QEVioyaUSfwMoJzPSihbSk3yN9A6eLnwCN31J0QsmSIADE7A++YUss8GM+/LOzu1gw2Q86AgytzsSRAQJ/CAyQAQKPALg8c5ABAo8AuDxzkAECjwC4PHOQAQKPALg8c5ABAo8AuDxzkAECjwC4PHOQAQKPALg8c5ABAo8AuDxzkAECjwC4PHOQAQKPALg8c5ABKj4C7cG8Xt2Jvl2/0mUcfAj7jUXxVy/2CqVzUPuPaXvnir4n4i6T1Im4/XCIJBTiBZGM4wr9Ff7UCosN6WbPXgpAziEBRy+FZJ+J63lCICQLJj6LJPitDA6DBrQ3mHWF5QUTH+SBcl9bIRmx8OvzfnNcxPk3cU5IQO3T+dOdT9EpE+1v4iaTziFEZ3EtOAwPGx+TjtX+Hw7Qs8H0gJlfMdFTzWAI0UcROX7Xb400r5t0LRhA2q55KO3FteoxipsgADk4wafLt8kVWdLztqn/JYxq1ecIkLwDWpXNb/JWZ5tC8/95JIwqdOi7LPcK6DqtXV7gwbnG5EryuFbd9ekkb4Dw0tq9vZLXdOcNUGc4e6NVRudNf268NOm1DvOeJ0t7L4BcKV1hPs0i2FebK5FDHyW4OqBVOT3XHufkBevGSXEtaGj3R+qAypTabkN1Mw6TXvPHvLDTtFcF5ObWiOltGoFwxwo915y7UwXUGUxHzPwCLugpBInI60m/Vcjk7V0y1ACtlgzmKWIBe2gkQUNrqUINUGf4/oRJXsJGPY0woV/P+81f0jTJeqwioOkcdcYgbfDcDMOk12qkbZfleBVAbr4tuOKLLAJR20QV2dWYp1MB9Oz32VFF6BVqsLPoumI6fvdz8yRL2zRtVAB1hrMzJvohjTD0Y4Xoz0mvWfiKrwqgveH0AmetZ1PoJTzvtXY3dbb7zqMEaCZF34iP85/3moXHr/ALbNP45/ZDoDEeKhzQVkzv3GdPhWkfA5QnNxqgPNFTaGuAFIKc5xLbAMiKhDxPAOl8VHZvaGV2VkyFFwlOWGc4DZn4u6wiEdsJyd+TXith60t+5UqAbKonKyoVQDZZmhWPUh9kyw3ggJb90GC2YKYb+0izy/bbUoQ+TPrNXDv9HnsHKinuulCwJe/HQlk/Tg3QNo2HNCZJv0BSA3Sd5uy1q7QuUgW0DTPbWu8ieHHQdV9U3jGR1jK3lz7oy0VXL88vmOibtHb3ebwQ/RPXgvrWvzzvgmzbTx7/qKn2QeuyypTqtN/H9pribqa6yzH6JKqbFI1r1a52avNWJKw/Hcv+6N8oRJ1h8A3HxcpbivvPSe7rVTGfoUFawqnQgcbrvQ/1SN4BOXGr7fgw6Q7BORAp7ut0d3nie4OXKwjiJ9UjX33ObTdBOGhd1OpjSifa4yQ3zhGRIx87ueFT3G2Bq8HsSOuFezdDENeCAxTXQJTZjxmqLT/oR+I+T1bIvtZlOtuhE9+FQOkc9JWjBvP6DsdHJLKft9pzi21MNIooGGntM33Mw3jfMXB9UNLNuOXzinCXhbpEUk8a6LqKjIgXwjS+Yhkju+Wuey8doLtuYrkYSNGNJeiIgkUZHJL0QG4FoKSbLPP/BgicngEyQOARAJdnDjJA4BEAl2cOMkDgEQCXZw4yQOARAJdnDjJA4BEAl2cOMkDgEQCXZw4yQOARAJdnDjJA4BEAl2cOMkDgEQCXZw4yQOARAJdnDjJA4BEAl/cZcb7geE5kFeoAAAAASUVORK5CYII=',
+  iconSize: [15, 15],
+  //iconAnchor: [16, 37],
+  popupAnchor: [0, -37]
+});
+
+
+// function popUp(f,l){
+//     var out = [];
+//     if (f.properties){
+//         for(key in f.properties){
+//             out.push((key)+": "+f.properties[key]);
+//         }
+//         l.bindPopup(out.join("<br />"));
+//     }
+// }
+
+// function popUp(feature, layer) {
+// if (feature.properties)
+// {
+//     var PopupText = []; 
+//     if (feature.properties.Address) PopupText.push("<b>Address: </b>" + feature.properties.Address);
+//     PopupText.push("<b><br/>Lower Level: </b>" + feature.properties.Lower_Leve);
+//     PopupText.push("<b><br/>Total SF: </b>" + feature.properties.Total)
+//     layer.bindPopup("<p>" + PopupText.join("") + "</p>");       
+
+// } 
+// }
+
+function popUp(feature, layer) {
+	layer.on('mouseover', function(e){
+var popupText = '';
+//popupText1 += (feature.properties.Address) ? "<b>" + feature.properties.Address : ' ',"</b>";
+Address = (feature.properties.Address) ? "" + feature.properties.Address : '<b>'+''+'</b>';
+popupText += (feature.properties.STATUS) ? "<BR>" + feature.properties.STATUS : '';
+popupText += (feature.properties.Ground_Flo) ? "<BR>GROUND FLOOR"+'\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0' + feature.properties.Ground_Flo : '';
+popupText += (feature.properties.Basement) ? "<BR>BASEMENT"+'\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0' + feature.properties.Basement : '';
+popupText += (feature.properties.Second_Flo) ? "<BR> SECOND FLOOR"+'\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0' + feature.properties.Second_Flo : '';
+popupText += (feature.properties.Third_Floo) ? "<BR> THIRD FLOOR"+'\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0' + feature.properties.Third_Floo : '';
+popupText += (feature.properties.Fourth_Flo) ? "<BR> FOURTH FLOOR"+'\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0' + feature.properties.Fourth_Flo : '';
+popupText += (feature.properties.Fifth_Floo) ? "<BR> FIFTH FLOOR"+'\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0' + feature.properties.Fifth_Floo : '';
+popupText += (feature.properties.Sixth_Floo) ? "<BR> SIXTH FLOOR"+'\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0' + feature.properties.Sixth_Floo : '';
+popupText += (feature.properties.Rooftop) ? "<BR> ROOFTOP"+'\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0' + feature.properties.Rooftop : '';
+popupText += (feature.properties.Total) ? "<BR> TOTAL"+'\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0' + feature.properties.Total : '';
+popupText += (feature.properties.Per_Annum) ? "<BR>" + feature.properties.Per_Annum : '';
+popupText += (feature.properties.DATE) ? "<BR>" + feature.properties.DATE : '';
+finalPop = Address.bold()+ popupText
+layer.bindPopup(finalPop.toUpperCase());
+layer.on("mouseout", function (e) {
+	})(layer, feature.properties);
+//layer.bindPopup(popupText.toUpperCase());
+})
+};
+
+
+
+
+
+
+
+var jsonTest = new L.GeoJSON.AJAX("Availabilities.geojson",{onEachFeature:popUp, pointToLayer: function (feature, latlng) {return L.marker(latlng,{icon:AvailabilitiesIcon}).on('mouseover', function() {//this is new
+                    this.bindPopup().openPopup();
+                });
+}});
+var jsonpTest = new L.geoJson.ajax("Comparables.geojson",{onEachFeature:popUp, pointToLayer: function (feature, latlng) {return L.marker(latlng,{icon:ComparablesIcon}).on('mouseover', function() {//this is new
+                    this.bindPopup().openPopup();
+   
+                });
+}});
+
+jsonTest.addTo(m);
+var overlays={
+"Availabilities":jsonTest,
+"Comparables":jsonpTest
+
+}
+
+var lc= L.control.layers(baseMaps,overlays,{collapsed:false});
+lc.addTo(m);
+
+
+
+</script>
+
+<img src="\images\RKF_LOGO_2016.jpg" alt="Mountain View" style="width:39px;height:36px"<h2><font size = "0.6"> 521 FIFTH AVENUE NEW YORK, NY 10175</h2>
+
+    </body>
+    
+
+</html>

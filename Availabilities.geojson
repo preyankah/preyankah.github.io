@@ -1,0 +1,1374 @@
+{  
+   "type":"FeatureCollection",
+   "features":[  
+      {  
+         "type":"Feature",
+         "properties":{  
+            "Address":"100 GANSEVOORT STREET",
+            "Location_D":"Southwest corner of West Street",
+            "STATUS":"Formerly Weishei Beet",
+            "SPACE_":"Ground Floor 8,105 SF",
+            "Total":8650,
+            "Basement":3545,
+            "Ground_Flo":5105,
+            "PSF":"$200 PSF",
+            "Per_Annum":"$1,621,000 per annum",
+            "Type_":"Availablities",
+            "Name":"Availablities",
+            "ADDRESS1":"100 GANSEVOORT STREET",
+            "CITY":"New York",
+            "STATE":"NY",
+            "LAT":40.739241,
+            "LONG_":-74.009218,
+            "LOC":"A"
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -74.009218,
+               40.739241
+            ]
+         }
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "Address":"22 LITTLE WEST 12TH STREET",
+            "Location_D":"Space A South block between Ninth Avenue and Washington Street",
+            "STATUS":"Formerly Meat Market",
+            "SPACE_":"Ground Floor 1,295 SF",
+            "Total":1295,
+            "Ground_Flo":1295,
+            "PSF":"$250 PSF",
+            "Per_Annum":"$323,750 per annum",
+            "Type_":"Availablities",
+            "Name":"Availablities",
+            "ADDRESS1":"22 LITTLE WEST 12TH STREET",
+            "CITY":"New York",
+            "STATE":"NY",
+            "LAT":40.73975,
+            "LONG_":-74.00735,
+            "LOC":"OK"
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -74.00735,
+               40.73975
+            ]
+         }
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "Address":"22 LITTLE WEST 12TH STREET",
+            "Location_D":"Space B South block between Ninth Avenue and Washington Street",
+            "STATUS":"Formerly Meat Market",
+            "SPACE_":"Ground Floor 2,405 SF",
+            "Total":2405,
+            "Ground_Flo":2405,
+            "PSF":"$250 PSF",
+            "Per_Annum":"$601,250 per annum",
+            "Type_":"Availablities",
+            "Name":"Availablities",
+            "ADDRESS1":"22 LITTLE WEST 12TH STREET",
+            "CITY":"New York",
+            "STATE":"NY",
+            "LAT":40.73975,
+            "LONG_":-74.00735,
+            "LOC":"OK"
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -74.00735,
+               40.73975
+            ]
+         }
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":4,
+            "Address":"25 LITTLE WEST 12TH STREET",
+            "Location_D":"North block between Ninth Avenue and Washington Street",
+            "STATUS":"Formerly Ajna Bar",
+            "SPACE_":"Ground Floor 15,200 SF",
+            "Total":49400,
+            "Lower_Leve":14700,
+            "Ground_Flo":15200,
+            "Second_Flo":19500,
+            "PSF":"$225 PSF",
+            "Per_Annum":"$5,955,000 per annum",
+            "PSF2":"$130 PSF - Second Floor",
+            "Type_":"Availablities",
+            "Name":"Availablities",
+            "ADDRESS1":"25 LITTLE WEST 12TH STREET",
+            "CITY":"New York",
+            "STATE":"NY",
+            "LAT":40.740104,
+            "LONG_":-74.007367,
+            "LOC":"OK"
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -74.00733278799999,
+               40.74016881500006
+            ]
+         }
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "Address":"32-34 LITTLE WEST 12TH STREET",
+            "Location_D":"South block between Ninth Avenue and Washington Street",
+            "STATUS":"Currently Ted Baker",
+            "SPACE_":"Ground Floor 3,307 SF",
+            "Total":4131,
+            "Lower_Leve":824,
+            "PSF":"$250 PSF",
+            "Type_":"Availablities",
+            "Name":"Availablities",
+            "ADDRESS1":"32-34 LITTLE WEST 12TH STREET",
+            "CITY":"New York",
+            "STATE":"NY",
+            "LAT":40.73986,
+            "LONG_":-74.00766,
+            "LOC":"OK"
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -74.00766,
+               40.73986
+            ]
+         }
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "Address":"400 WEST 14TH STREET",
+            "Location_D":"Southwest corner of Ninth Avenue",
+            "STATUS":"Currently Gaslight Lounge and Khiel’s",
+            "SPACE_":"Ground Floor 5,000 SF",
+            "Total":30000,
+            "Basement":5000,
+            "Ground_Flo":5000,
+            "Second_Flo":5000,
+            "Third_Floo":"5000",
+            "Fourth_Flo":"5000",
+            "Fifth_Floo":"5000",
+            "PSF":"$650 PSF",
+            "Per_Annum":"$5,250,000 per annum",
+            "PSF2":"$100 PSF (2-5 Floors)",
+            "Type_":"Availablities",
+            "Name":"Availablities",
+            "ADDRESS1":"400 WEST 14TH STREET",
+            "CITY":"New York",
+            "STATE":"NY",
+            "LAT":40.740846,
+            "LONG_":-74.005502,
+            "LOC":"A"
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -74.00570855899997,
+               40.74089016700003
+            ]
+         }
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":12,
+            "Address":"402 WEST 13TH STREET",
+            "Location_D":"South block between Ninth Avenue and Washington Street",
+            "STATUS":"New construction",
+            "SPACE_":"Ground Floor 2,400 SF",
+            "Total":3775,
+            "Lower_Leve":1375,
+            "Ground_Flo":2400,
+            "PSF":"$200 PSF",
+            "Per_Annum":"$480,000 per annum",
+            "Type_":"Availablities",
+            "Name":"Availablities",
+            "ADDRESS1":"402 WEST 13TH STREET",
+            "CITY":"New York",
+            "STATE":"NY",
+            "LAT":40.740197,
+            "LONG_":-74.006085,
+            "LOC":"A"
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -74.00635659999995,
+               40.74035443100007
+            ]
+         }
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":13,
+            "Address":"405 WEST 14TH STREET",
+            "Location_D":"North block between Ninth Avenue and Washington Street",
+            "STATUS":"Currently Ugg",
+            "SPACE_":"Ground Floor 3,000 SF",
+            "Total":6666,
+            "Basement":666,
+            "Ground_Flo":3000,
+            "Second_Flo":3000,
+            "Per_Annum":"$1,200,000 per annum",
+            "Type_":"Availablities",
+            "Name":"Availablities",
+            "ADDRESS1":"405 WEST 14TH STREET",
+            "CITY":"New York",
+            "STATE":"NY",
+            "ZIP":0,
+            "LAT":40.741161,
+            "LONG_":-74.005504,
+            "LOC":"A"
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -74.00585897799994,
+               40.74134698100005
+            ]
+         }
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":14,
+            "Address":"407 WEST 14TH STREET",
+            "Location_D":"North block between Ninth and Tenth Avenues",
+            "STATUS":"Formerly Manon",
+            "SPACE_":"Ground Floor 2,500 SF",
+            "Total":11500,
+            "Basement":2500,
+            "Ground_Flo":2500,
+            "Second_Flo":2500,
+            "Third_Floo":"2500",
+            "Mezzanine":"1500",
+            "Per_Annum":"$1,560,000 per annum",
+            "Type_":"Availablities",
+            "Name":"Availablities",
+            "ADDRESS1":"407 WEST 14TH STREET",
+            "CITY":"New York",
+            "STATE":"NY",
+            "ZIP":0,
+            "LAT":40.741199,
+            "LONG_":-74.005592,
+            "LOC":"A"
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -74.00594069799996,
+               40.74137573000007
+            ]
+         }
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":17,
+            "Address":"408 WEST 14TH STREET",
+            "Location_D":"South block between Ninth Avenue and Washington Street",
+            "STATUS":"Currently Vacant",
+            "SPACE_":"Space A",
+            "Total":5300,
+            "Basement":1800,
+            "Ground_Flo":3500,
+            "PSF":"$275 PSF",
+            "Per_Annum":"$962,500 per annum",
+            "Type_":"Availablities",
+            "Name":"Availablities",
+            "ADDRESS1":"408 WEST 14TH STREET",
+            "CITY":"New York",
+            "STATE":"NY",
+            "ZIP":0,
+            "LAT":40.740997,
+            "LONG_":-74.005857,
+            "LOC":"A"
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -74.00592077499994,
+               40.74098096700004
+            ]
+         }
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":18,
+            "Address":"408 WEST 14TH STREET",
+            "Location_D":"South block between Ninth Avenue and Washington Street",
+            "STATUS":"Currently Vacant",
+            "SPACE_":"Space B",
+            "Total":5900,
+            "Basement":1900,
+            "Ground_Flo":4000,
+            "PSF":"$275 PSF",
+            "Per_Annum":"$1,100,000 per annum",
+            "Type_":"Availablities",
+            "Name":"Availablities",
+            "ADDRESS1":"408 WEST 14TH STREET",
+            "CITY":"New York",
+            "STATE":"NY",
+            "ZIP":0,
+            "LAT":40.740997,
+            "LONG_":-74.005857,
+            "LOC":"A"
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -74.00584992399996,
+               40.74094119000006
+            ]
+         }
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":19,
+            "Address":"409 WEST 14TH STREET",
+            "Location_D":"North block between Ninth and Tenth Avenues",
+            "STATUS":"Formerly Abe & Arthur’s Restaurant and SL Club",
+            "SPACE_":"Ground Floor 4,500 SF",
+            "Total":10500,
+            "Lower_Leve":4500,
+            "Ground_Flo":4500,
+            "Mezzanine":"1500",
+            "Per_Annum":"$1,950,000 per annum",
+            "Type_":"Availablities",
+            "Name":"Availablities",
+            "ADDRESS1":"409 WEST 14TH STREET",
+            "CITY":"New York",
+            "STATE":"NY",
+            "ZIP":0,
+            "LAT":40.741236,
+            "LONG_":-74.005681,
+            "LOC":"A"
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -74.00603377799996,
+               40.74143095800008
+            ]
+         }
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":21,
+            "Address":"410 WEST 14TH STREET",
+            "Location_D":"South block between Ninth Avenue and Washington Street",
+            "STATUS":"Formerly Carlo Pazolini",
+            "SPACE_":"Ground Floor 2,500 SF",
+            "Total":5000,
+            "Basement":2500,
+            "Ground_Flo":2500,
+            "PSF":"$260 PSF",
+            "Per_Annum":"$650,000 per annum",
+            "Type_":"Availablities",
+            "Name":"Availablities",
+            "ADDRESS1":"410 WEST 14TH STREET",
+            "CITY":"New York",
+            "STATE":"NY",
+            "ZIP":0,
+            "LAT":40.741034,
+            "LONG_":-74.005946,
+            "LOC":"A"
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -74.00612451499995,
+               40.741063041000075
+            ]
+         }
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":23,
+            "Address":"412 WEST 15TH STREET",
+            "Location_D":"South block between Ninth and Tenth Avenues",
+            "STATUS":"New Construction",
+            "SPACE_":"Ground Floor 7,059 SF",
+            "Total":12186,
+            "Lower_Leve":5117,
+            "Ground_Flo":7069,
+            "PSF":"$175 PSF",
+            "Per_Annum":"$1,235,325 per annum",
+            "Type_":"Availablities",
+            "Name":"Availablities",
+            "ADDRESS1":"412 WEST 15TH STREET",
+            "CITY":"New York",
+            "STATE":"NY",
+            "ZIP":0,
+            "LAT":40.741768,
+            "LONG_":-74.005534,
+            "LOC":"A"
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -74.00593359299995,
+               40.741946376000044
+            ]
+         }
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":24,
+            "Address":"413-419 WEST 14TH STREET",
+            "Location_D":"North block between Ninth and Tenth Avenues",
+            "STATUS":"Formerly Alexander McQueen and Matthew Williamson",
+            "SPACE_":"Ground Floor 6,694 SF",
+            "Total":11869,
+            "Lower_Leve":5175,
+            "Ground_Flo":6694,
+            "PSF":"$375 PSF",
+            "Per_Annum":"$2,769,000 per annum",
+            "PSF2":"$50 PSF - Lower Level",
+            "Type_":"Availablities",
+            "Name":"Availablities",
+            "ADDRESS1":"413-419 WEST 14TH STREET",
+            "CITY":"New York",
+            "STATE":"NY",
+            "ZIP":0,
+            "LAT":40.7416,
+            "LONG_":-74.0062,
+            "LOC":"OK"
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -74.00627254399996,
+               40.74151832900003
+            ]
+         }
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":26,
+            "Address":"414 WEST 14TH STREET",
+            "Location_D":"South block between Ninth Avenue and Washington Street",
+            "STATUS":"Currently Levi’s",
+            "SPACE_":"Ground Floor 4,616 SF",
+            "Total":4616,
+            "Ground_Flo":4616,
+            "PSF":"$375 PSF",
+            "Per_Annum":"$1,731,000 per annum",
+            "Type_":"Availablities",
+            "Name":"Availablities",
+            "ADDRESS1":"414 WEST 14TH STREET",
+            "CITY":"New York",
+            "STATE":"NY",
+            "ZIP":0,
+            "LAT":40.74111,
+            "LONG_":-74.006123,
+            "LOC":"A"
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -74.00641221399997,
+               40.74119561700007
+            ]
+         }
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":27,
+            "Address":"419 WEST 13TH STREET",
+            "Location_D":"North block between Ninth Avenue and Washington Street",
+            "STATUS":"Formerly APT",
+            "SPACE_":"Ground Floor 2,800 SF",
+            "Total":22400,
+            "Basement":2800,
+            "Ground_Flo":2800,
+            "Second_Flo":2800,
+            "Third_Floo":"2800",
+            "Fourth_Flo":"2800",
+            "Fifth_Floo":"2800",
+            "Sixth_Floo":"2800",
+            "Rooftop":"2800",
+            "Per_Annum":"$2,500,000 per annum",
+            "Type_":"Availablities",
+            "Name":"Availablities",
+            "ADDRESS1":"419 WEST 13TH STREET",
+            "CITY":"New York",
+            "STATE":"NY",
+            "ZIP":0,
+            "LAT":40.740762,
+            "LONG_":-74.006681,
+            "LOC":"A"
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -74.00685843299993,
+               40.74081039300006
+            ]
+         }
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":29,
+            "Address":"420 WEST 14TH STREET",
+            "Location_D":"South block between Ninth Avenue and Washington Street",
+            "STATUS":"Currently Asics",
+            "SPACE_":"Ground Floor 3,600 SF",
+            "Total":6400,
+            "Basement":2800,
+            "Ground_Flo":3600,
+            "PSF":"$325 PSF",
+            "Per_Annum":"$1,170,000 per annum",
+            "Type_":"Availablities",
+            "Name":"Availablities",
+            "ADDRESS1":"420 WEST 14TH STREET",
+            "CITY":"New York",
+            "STATE":"NY",
+            "ZIP":0,
+            "LAT":40.741223,
+            "LONG_":-74.006389,
+            "LOC":"A"
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -74.00661660399999,
+               40.74128594200005
+            ]
+         }
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":30,
+            "Address":"421-435 WEST 14TH STREET",
+            "Location_D":"North block between Ninth and Tenth Avenues",
+            "STATUS":"New Construction",
+            "SPACE_":"Space A",
+            "Total":3545,
+            "Ground_Flo":3545,
+            "PSF":"$375 PSF",
+            "Per_Annum":"$1,329,375 per annum",
+            "Type_":"Availablities",
+            "Name":"Availablities",
+            "ADDRESS1":"421-435 WEST 14TH STREET",
+            "CITY":"New York",
+            "STATE":"NY",
+            "ZIP":0,
+            "LAT":40.74176,
+            "LONG_":-74.00659,
+            "LOC":"OK"
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -74.00684261599997,
+               40.74177075500006
+            ]
+         }
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":31,
+            "Address":"421-435 WEST 14TH STREET",
+            "Location_D":"North block between Ninth and Tenth Avenues",
+            "STATUS":"New Construction",
+            "SPACE_":"Space B",
+            "Total":3783,
+            "Ground_Flo":3783,
+            "PSF":"$375 PSF",
+            "Per_Annum":"41,418,625 per annum",
+            "Type_":"Availablities",
+            "Name":"Availablities",
+            "ADDRESS1":"421-435 WEST 14TH STREET",
+            "CITY":"New York",
+            "STATE":"NY",
+            "ZIP":0,
+            "LAT":40.74176,
+            "LONG_":-74.00659,
+            "LOC":"OK"
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -74.00670462999994,
+               40.74171588200005
+            ]
+         }
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":32,
+            "Address":"421-435 WEST 14TH STREET",
+            "Location_D":"North block between Ninth and Tenth Avenues",
+            "STATUS":"New Construction",
+            "SPACE_":"Space C",
+            "Total":2107,
+            "Ground_Flo":2107,
+            "PSF":"$375 PSF",
+            "Per_Annum":"$790,125 per annum",
+            "Type_":"Availablities",
+            "Name":"Availablities",
+            "ADDRESS1":"421-435 WEST 14TH STREET",
+            "CITY":"New York",
+            "STATE":"NY",
+            "ZIP":0,
+            "LAT":40.74176,
+            "LONG_":-74.00659,
+            "LOC":"OK"
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -74.00658988799995,
+               40.74167080800004
+            ]
+         }
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":33,
+            "Address":"421-435 WEST 14TH STREET",
+            "Location_D":"North block between Ninth and Tenth Avenues",
+            "STATUS":"New Construction",
+            "SPACE_":"Space D",
+            "Total":2061,
+            "Ground_Flo":2061,
+            "PSF":"$375 PSF",
+            "Per_Annum":"$769,125 per annum",
+            "Type_":"Availablities",
+            "Name":"Availablities",
+            "ADDRESS1":"421-435 WEST 14TH STREET",
+            "CITY":"New York",
+            "STATE":"NY",
+            "ZIP":0,
+            "LAT":40.74176,
+            "LONG_":-74.00659,
+            "LOC":"OK"
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -74.00646406499999,
+               40.74161115800007
+            ]
+         }
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":34,
+            "Address":"426 WEST 14TH STREET",
+            "Location_D":"South block between Ninth and Tenth Avenues",
+            "STATUS":"Formerly M&W Wholesale Meats",
+            "SPACE_":"Ground Floor 2,500 SF",
+            "Total":17000,
+            "Lower_Leve":2000,
+            "Ground_Flo":2500,
+            "Second_Flo":2500,
+            "Third_Floo":"2500",
+            "Fourth_Flo":"2500",
+            "Fifth_Floo":"2500",
+            "Sixth_Floo":"2500",
+            "Potential_":"(2-6)",
+            "PSF":"$325 PSF",
+            "Per_Annum":"$1,750,000 per annum",
+            "PSF2":"$75 PSF - (2-5 Floors)",
+            "Type_":"Availablities",
+            "Name":"Availablities",
+            "ADDRESS1":"426 WEST 14TH STREET",
+            "CITY":"New York",
+            "STATE":"NY",
+            "ZIP":0,
+            "LAT":40.741336,
+            "LONG_":-74.006656,
+            "LOC":"A"
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -74.00677218399994,
+               40.74135526800006
+            ]
+         }
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":35,
+            "Address":"436 WEST 15TH STREET",
+            "Location_D":"South block between Ninth and Tenth Avenues",
+            "STATUS":"New Construction",
+            "SPACE_":"Ground Floor 2,150 SF",
+            "Total":2150,
+            "Ground_Flo":2150,
+            "PSF":"$175 PSF",
+            "Per_Annum":"$376,250 per annum",
+            "Type_":"Availablities",
+            "Name":"Availablities",
+            "ADDRESS1":"436 WEST 15TH STREET",
+            "CITY":"New York",
+            "STATE":"NY",
+            "ZIP":0,
+            "LAT":40.742192,
+            "LONG_":-74.006548,
+            "LOC":"A"
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -74.006548,
+               40.742192
+            ]
+         }
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":36,
+            "Address":"44 NINTH AVENUE",
+            "Location_D":"Northeast corner of West 14th Street",
+            "STATUS":"Currently The Diner and Scarpetta",
+            "SPACE_":"Ground Floor 11,400 SF",
+            "Total":38000,
+            "Lower_Leve":10650,
+            "Ground_Flo":11400,
+            "Second_Flo":12540,
+            "Third_Floo":"3410",
+            "Per_Annum":"$12,000,000 per annum",
+            "Type_":"Availablities",
+            "Name":"Availablities",
+            "ADDRESS1":"44 NINTH AVENUE",
+            "CITY":"New York",
+            "STATE":"NY",
+            "ZIP":0,
+            "LAT":40.740856,
+            "LONG_":-74.004977,
+            "LOC":"A"
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -74.00495281999997,
+               40.74098447600005
+            ]
+         }
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":37,
+            "Address":"446 WEST 14TH STREET",
+            "Location_D":"South block between Washington Street and Tenth Avenue",
+            "STATUS":"Formerly Mr. Brainwash",
+            "SPACE_":"Ground Floor  4,400 SF*",
+            "Total":9900,
+            "Lower_Leve":5500,
+            "Ground_Flo":4400,
+            "PSF":"$450 PSF",
+            "Per_Annum":"$2,530,000 per annum",
+            "PSF2":"$100 PSF - Lower Level",
+            "Type_":"Availablities",
+            "Name":"Availablities",
+            "ADDRESS1":"446 WEST 14TH STREET",
+            "CITY":"New York",
+            "STATE":"NY",
+            "ZIP":0,
+            "LAT":40.741694,
+            "LONG_":-74.007504,
+            "LOC":"A"
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -74.00753160899995,
+               40.74165611500007
+            ]
+         }
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":38,
+            "Address":"450 WEST 14TH STREET",
+            "Location_D":"South block between Washington Street and Tenth Avenue",
+            "STATUS":"Formerly Fjallraven Pop Up",
+            "SPACE_":"Ground Floor 7,636 SF",
+            "Total":11944,
+            "Lower_Leve":4308,
+            "Ground_Flo":7636,
+            "PSF":"$275 PSF",
+            "Per_Annum":"$2,100,000 per annum",
+            "Type_":"Availablities",
+            "Name":"Availablities",
+            "ADDRESS1":"450 WEST 14TH STREET",
+            "CITY":"New York",
+            "STATE":"NY",
+            "ZIP":0,
+            "LAT":40.741765,
+            "LONG_":-74.007673,
+            "LOC":"A"
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -74.00775521899999,
+               40.741753440000025
+            ]
+         }
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":39,
+            "Address":"459 WEST 14TH STREET",
+            "Location_D":"North block between Washington Street and Tenth Avenue",
+            "STATUS":"Formerly Stray Kat Gallery Pop Up",
+            "SPACE_":"Ground Floor 8,469 SF",
+            "Total":8469,
+            "Ground_Flo":8469,
+            "PSF":"$300 PSF",
+            "Per_Annum":"$2,540,700 per annum",
+            "Type_":"Availablities",
+            "Name":"Availablities",
+            "ADDRESS1":"459 WEST 14TH STREET",
+            "CITY":"New York",
+            "STATE":"NY",
+            "ZIP":0,
+            "LAT":40.742076,
+            "LONG_":-74.007667,
+            "LOC":"A"
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -74.00758882199995,
+               40.742076058000066
+            ]
+         }
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":40,
+            "Address":"461 WEST 14TH STREET",
+            "Location_D":"Space A – North Retail Northeast corner of Tenth Avenue",
+            "STATUS":"New construction",
+            "SPACE_":"Ground Floor 6,028 SF*",
+            "Total":7668,
+            "Basement":1640,
+            "Ground_Flo":6028,
+            "PSF":"$400 PSF",
+            "Per_Annum":"$2,411,200 per annum",
+            "Type_":"Availablities",
+            "Name":"Availablities",
+            "ADDRESS1":"461 WEST 14TH STREET",
+            "CITY":"New York",
+            "STATE":"NY",
+            "ZIP":0,
+            "LAT":40.742091,
+            "LONG_":-74.007704,
+            "LOC":"A"
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -74.00789627599994,
+               40.74220837800004
+            ]
+         }
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":41,
+            "Address":"461 WEST 14TH STREET",
+            "Location_D":"Space B – South Retail Northeast corner of Tenth Avenue",
+            "STATUS":"New construction",
+            "SPACE_":"Ground Floor 9,968 SF",
+            "Total":12501,
+            "Basement":2533,
+            "Ground_Flo":9968,
+            "PSF":"$300 PSF",
+            "Per_Annum":"$5,993,000 per annum",
+            "Type_":"Availablities",
+            "Name":"Availablities",
+            "ADDRESS1":"461 WEST 14TH STREET",
+            "CITY":"New York",
+            "STATE":"NY",
+            "ZIP":0,
+            "LAT":40.742091,
+            "LONG_":-74.007704,
+            "LOC":"A"
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -74.00777341099996,
+               40.74215658000003
+            ]
+         }
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":42,
+            "Address":"46-48 GANSEVOORT STREET",
+            "Location_D":"Southwest corner of Greenwich Street",
+            "STATUS":"Formerly The Sugar Factory",
+            "SPACE_":"Ground Floor 3,504 SF",
+            "Total":9980,
+            "Basement":2972,
+            "Ground_Flo":3504,
+            "Second_Flo":3504,
+            "PSF":"$600 PSF",
+            "Per_Annum":"$2,628,000 per annum",
+            "PSF2":"$150 PSF - Second Floor",
+            "Type_":"Availablities",
+            "Name":"Availablities",
+            "ADDRESS1":"46-48 GANSEVOORT STREET",
+            "CITY":"New York",
+            "STATE":"NY",
+            "ZIP":0,
+            "LAT":40.739352,
+            "LONG_":-74.006629,
+            "LOC":"OK"
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -74.00659940099996,
+               40.73927348800004
+            ]
+         }
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":43,
+            "Address":"48 NINTH AVENUE",
+            "Location_D":"East block between West 14th and 15th Streets",
+            "STATUS":"Currently L’Occitane en Provence",
+            "SPACE_":"Ground Floor 1,000 SF",
+            "Total":1500,
+            "Basement":500,
+            "Ground_Flo":1000,
+            "PSF":"$410 PSF",
+            "Per_Annum":"$410,000 per annum",
+            "Type_":"Availablities",
+            "Name":"Availablities",
+            "ADDRESS1":"48 NINTH AVENUE",
+            "CITY":"New York",
+            "STATE":"NY",
+            "ZIP":0,
+            "LAT":40.741035,
+            "LONG_":-74.004948,
+            "LOC":"A"
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -74.00491501399995,
+               40.74119938300004
+            ]
+         }
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":44,
+            "Address":"50 GANSEVOORT STREET",
+            "Location_D":"South block between Greenwich and Washington Streets",
+            "STATUS":"Formerly The Griffin",
+            "SPACE_":"Ground Floor 2,834 SF",
+            "Total":10899,
+            "Basement":2428,
+            "Ground_Flo":2834,
+            "Second_Flo":2834,
+            "Third_Floo":"2803",
+            "PSF":"$500 PSF",
+            "Per_Annum":"$2,262,550 per annum",
+            "PSF2":"$150 PSF - (2-3 Floor)",
+            "Type_":"Availablities",
+            "Name":"Availablities",
+            "ADDRESS1":"50 GANSEVOORT STREET",
+            "CITY":"New York",
+            "STATE":"NY",
+            "ZIP":0,
+            "LAT":40.739262,
+            "LONG_":-74.006709,
+            "LOC":"A"
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -74.00682517999996,
+               40.73928126800007
+            ]
+         }
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":45,
+            "Address":"60 GANSEVOORT STREET",
+            "Location_D":"South block between Greenwich and Washington Streets",
+            "STATUS":"Currently vacant",
+            "SPACE_":"Ground Floor 1,658 SF",
+            "Total":1658,
+            "Ground_Flo":1658,
+            "PSF":"$550 PSF",
+            "Per_Annum":"$911,900 per annum",
+            "Type_":"Availablities",
+            "Name":"Availablities",
+            "ADDRESS1":"60 GANSEVOORT STREET",
+            "CITY":"New York",
+            "STATE":"NY",
+            "ZIP":0,
+            "LAT":40.739253,
+            "LONG_":-74.007246,
+            "LOC":"A"
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -74.00725227999999,
+               40.73926225100007
+            ]
+         }
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":48,
+            "Address":"62 GANSEVOORT STREET",
+            "Location_D":"South block between Greenwich and Washington Streets",
+            "STATUS":"Currently vacant",
+            "SPACE_":"Ground Floor 2,087 SF",
+            "Total":2087,
+            "Ground_Flo":2087,
+            "PSF":"$550 PSF",
+            "Per_Annum":"$1,148,000 per annum",
+            "Type_":"Availablities",
+            "Name":"Availablities",
+            "ADDRESS1":"62 GANSEVOORT STREET",
+            "CITY":"New York",
+            "STATE":"NY",
+            "ZIP":0,
+            "LAT":40.739251,
+            "LONG_":-74.007354,
+            "LOC":"A"
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -74.00733999699997,
+               40.73925830300004
+            ]
+         }
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":49,
+            "Address":"64 GANSEVOORT STREET",
+            "Location_D":"South block between Greenwich and Washington Streets",
+            "STATUS":"Formerly Rapha",
+            "SPACE_":"Ground Floor 2,081 SF",
+            "Total":2081,
+            "Ground_Flo":2081,
+            "PSF":"$550 PSF",
+            "Per_Annum":"$1,144,550 per annum",
+            "Type_":"Availablities",
+            "Name":"Availablities",
+            "ADDRESS1":"64 GANSEVOORT STREET",
+            "CITY":"New York",
+            "STATE":"NY",
+            "ZIP":0,
+            "LAT":40.739249,
+            "LONG_":-74.007461,
+            "LOC":"A"
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -74.00741935099995,
+               40.73926445700005
+            ]
+         }
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":51,
+            "Address":"68 GANSEVOORT STREET",
+            "Location_D":"South block between Greenwich and Washington Streets",
+            "STATUS":"Currently vacant",
+            "SPACE_":"Ground Floor 1,968 SF",
+            "Total":1968,
+            "Ground_Flo":1968,
+            "PSF":"$550 PSF",
+            "Per_Annum":"$1,082,400 per annum",
+            "Type_":"Availablities",
+            "Name":"Availablities",
+            "ADDRESS1":"68 GANSEVOORT STREET",
+            "CITY":"New York",
+            "STATE":"NY",
+            "ZIP":0,
+            "LAT":40.739245,
+            "LONG_":-74.007676,
+            "LOC":"A"
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -74.00759342299995,
+               40.73926301100005
+            ]
+         }
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":53,
+            "Address":"807 WASHINGTON STREET",
+            "Location_D":"East block between Gansevoort and Horatio Streets",
+            "STATUS":"Currently Nicholas Kirkwood",
+            "SPACE_":"Ground Floor 1,572 SF",
+            "Total":2072,
+            "Basement":500,
+            "Lower_Leve":1572,
+            "PSF":"$385 PSF",
+            "Per_Annum":"$605,220 per annum",
+            "Type_":"Availablities",
+            "Name":"Availablities",
+            "ADDRESS1":"807 WASHINGTON STREET",
+            "CITY":"New York",
+            "STATE":"NY",
+            "ZIP":0,
+            "LAT":40.7391,
+            "LONG_":-74.007893,
+            "LOC":"A"
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -74.00791176599995,
+               40.73906829200007
+            ]
+         }
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":59,
+            "Address":"859 WASHINGTON STREET",
+            "Location_D":"Northeast corner of West 13th Street",
+            "STATUS":"Formerly Hogs and Heifers",
+            "SPACE_":"Ground Floor 1,200 SF",
+            "Total":1750,
+            "Lower_Leve":550,
+            "Ground_Flo":1200,
+            "PSF":"$600 PSF",
+            "Per_Annum":"$802,500 per annum",
+            "PSF2":"$150 PSF - Lower Level",
+            "Type_":"Availablities",
+            "Name":"Availablities",
+            "ADDRESS1":"859 WASHINGTON STREET",
+            "CITY":"New York",
+            "STATE":"NY",
+            "ZIP":0,
+            "LAT":40.741093,
+            "LONG_":-74.007162,
+            "LOC":"A"
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -74.00724666699995,
+               40.74097682000007
+            ]
+         }
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":60,
+            "Address":"860 WASHINGTON STREET",
+            "Location_D":"Northwest corner of West 13th Street",
+            "STATUS":"New Construction",
+            "SPACE_":"Ground Floor 10,887 SF",
+            "Total":25412,
+            "Basement":5115,
+            "Lower_Leve":0,
+            "Ground_Flo":10887,
+            "Second_Flo":9410,
+            "PSF":"$600 PSF",
+            "Per_Annum":"$9,355,000 per annum",
+            "PSF2":"$300 PSF - Second Floor",
+            "Type_":"Availablities",
+            "Name":"Availablities",
+            "ADDRESS1":"860 WASHINGTON STREET",
+            "CITY":"New York",
+            "STATE":"NY",
+            "ZIP":0,
+            "LAT":40.74103,
+            "LONG_":-74.007624,
+            "LOC":"A"
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -74.00757026299993,
+               40.741109695000034
+            ]
+         }
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":61,
+            "Address":"873 WASHINGTON STREET",
+            "Location_D":"East block between West 13th and 14th Streets",
+            "STATUS":"Formerly Scoop Men’s",
+            "SPACE_":"Ground Floor 2,200 SF",
+            "Total":2200,
+            "Ground_Flo":2200,
+            "PSF":"$600 PSF",
+            "Per_Annum":"$1,320,000 per annum",
+            "Type_":"Availablities",
+            "Name":"Availablities",
+            "ADDRESS1":"873 WASHINGTON STREET",
+            "CITY":"New York",
+            "STATE":"NY",
+            "ZIP":0,
+            "LAT":40.74144,
+            "LONG_":-74.006903,
+            "LOC":"A"
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -74.00694201399995,
+               40.741380510000056
+            ]
+         }
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":62,
+            "Address":"875 WASHINGTON STREET",
+            "Location_D":"Southeast corner of West 14th Street",
+            "STATUS":"Currently Lumas Pop Up",
+            "SPACE_":"Ground Floor 2,000 SF",
+            "Total":4050,
+            "Lower_Leve":2050,
+            "Ground_Flo":2000,
+            "PSF":"$600 PSF",
+            "Per_Annum":"$1,507,500 per annum",
+            "PSF2":"$150 PSF - Lower Level",
+            "Type_":"Availablities",
+            "Name":"Availablities",
+            "ADDRESS1":"875 WASHINGTON STREET",
+            "CITY":"New York",
+            "STATE":"NY",
+            "ZIP":0,
+            "LAT":40.741489,
+            "LONG_":-74.006866,
+            "LOC":"A"
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -74.00706810699995,
+               40.74121763100004
+            ]
+         }
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":64,
+            "Address":"90 GANSEVOORT STREET",
+            "Location_D":"South block between Washington and West Streets",
+            "STATUS":"New construction",
+            "SPACE_":"Space A",
+            "Total":3250,
+            "Lower_Leve":0,
+            "Ground_Flo":3250,
+            "PSF":"$200 PSF",
+            "Per_Annum":"$650,000 per annum",
+            "Type_":"Availablities",
+            "Name":"Availablities",
+            "ADDRESS1":"90 GANSEVOORT STREET",
+            "CITY":"New York",
+            "STATE":"NY",
+            "ZIP":0,
+            "LAT":40.73924,
+            "LONG_":-74.008694,
+            "LOC":"A"
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -74.008694,
+               40.73924
+            ]
+         }
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "OBJECTID":65,
+            "Address":"90 GANSEVOORT STREET",
+            "Location_D":"South block between Washington and West Streets",
+            "STATUS":"New construction",
+            "SPACE_":"Space B",
+            "Total":1300,
+            "Ground_Flo":1300,
+            "PSF":"$200 PSF",
+            "Per_Annum":"$260,000 per annum",
+            "Type_":"Availablities",
+            "Name":"Availablities",
+            "ADDRESS1":"90 GANSEVOORT STREET",
+            "CITY":"New York",
+            "STATE":"NY",
+            "ZIP":0,
+            "LAT":40.73924,
+            "LONG_":-74.008694,
+            "LOC":"A"
+         },
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -74.008694,
+               40.73924
+            ]
+         }
+      }
+   ]
+}

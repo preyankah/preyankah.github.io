@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8' />
+    <title></title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.25.1/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.25.1/mapbox-gl.css' rel='stylesheet' />
+    <style>
+        body { margin:0; padding:0; }
+        #map { position:absolute; top:0; bottom:0; width:100%; }
+    </style>
+</head>
+<body>
+
+<div id='map'></div>
+<script>
+mapboxgl.accessToken = 'pk.eyJ1IjoicHJleWFua2FoIiwiYSI6ImUxN2UwNWNjMTdmMzkxMTRjOGYxM2NlYzlmNjU5NWIyIn0.p6kFHJp_6K57LBchPEAQsg';
+var map = new mapboxgl.Map({
+    container: 'map', // container id
+    style: 'mapbox://styles/mapbox/streets-v9',
+    center: [-74.50, 40], // starting position
+    zoom: 9 // starting zoom
+});
+
+// Add zoom and rotation controls to the map.
+map.addControl(new mapboxgl.Navigation());
+var AvailabilitiesIcon = L.icon({
+  iconUrl: 'https://maxcdn.icons8.com/Color/PNG/24/Media_Controls/record-24.png',
+  iconSize: [15, 15],
+  //iconAnchor: [16, 37],
+  popupAnchor: [0, -37]
+});
+var ComparablesIcon = L.icon({
+  iconUrl:'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGgAAABoCAYAAAAdHLWhAAAFHklEQVR4Xu2cMXbbRhCGZyjw0V18g5AF2YYy1Yc+QZQTWGoSsrJ0g+QEVioyaUSfwMoJzPSihbSk3yN9A6eLnwCN31J0QsmSIADE7A++YUss8GM+/LOzu1gw2Q86AgytzsSRAQJ/CAyQAQKPALg8c5ABAo8AuDxzkAECjwC4PHOQAQKPALg8c5ABAo8AuDxzkAECjwC4PHOQAQKPALg8c5ABAo8AuDxzkAECjwC4PHOQAQKPALg8c5ABKj4C7cG8Xt2Jvl2/0mUcfAj7jUXxVy/2CqVzUPuPaXvnir4n4i6T1Im4/XCIJBTiBZGM4wr9Ff7UCosN6WbPXgpAziEBRy+FZJ+J63lCICQLJj6LJPitDA6DBrQ3mHWF5QUTH+SBcl9bIRmx8OvzfnNcxPk3cU5IQO3T+dOdT9EpE+1v4iaTziFEZ3EtOAwPGx+TjtX+Hw7Qs8H0gJlfMdFTzWAI0UcROX7Xb400r5t0LRhA2q55KO3FteoxipsgADk4wafLt8kVWdLztqn/JYxq1ecIkLwDWpXNb/JWZ5tC8/95JIwqdOi7LPcK6DqtXV7gwbnG5EryuFbd9ekkb4Dw0tq9vZLXdOcNUGc4e6NVRudNf268NOm1DvOeJ0t7L4BcKV1hPs0i2FebK5FDHyW4OqBVOT3XHufkBevGSXEtaGj3R+qAypTabkN1Mw6TXvPHvLDTtFcF5ObWiOltGoFwxwo915y7UwXUGUxHzPwCLugpBInI60m/Vcjk7V0y1ACtlgzmKWIBe2gkQUNrqUINUGf4/oRJXsJGPY0woV/P+81f0jTJeqwioOkcdcYgbfDcDMOk12qkbZfleBVAbr4tuOKLLAJR20QV2dWYp1MB9Oz32VFF6BVqsLPoumI6fvdz8yRL2zRtVAB1hrMzJvohjTD0Y4Xoz0mvWfiKrwqgveH0AmetZ1PoJTzvtXY3dbb7zqMEaCZF34iP85/3moXHr/ALbNP45/ZDoDEeKhzQVkzv3GdPhWkfA5QnNxqgPNFTaGuAFIKc5xLbAMiKhDxPAOl8VHZvaGV2VkyFFwlOWGc4DZn4u6wiEdsJyd+TXith60t+5UqAbKonKyoVQDZZmhWPUh9kyw3ggJb90GC2YKYb+0izy/bbUoQ+TPrNXDv9HnsHKinuulCwJe/HQlk/Tg3QNo2HNCZJv0BSA3Sd5uy1q7QuUgW0DTPbWu8ieHHQdV9U3jGR1jK3lz7oy0VXL88vmOibtHb3ebwQ/RPXgvrWvzzvgmzbTx7/qKn2QeuyypTqtN/H9pribqa6yzH6JKqbFI1r1a52avNWJKw/Hcv+6N8oRJ1h8A3HxcpbivvPSe7rVTGfoUFawqnQgcbrvQ/1SN4BOXGr7fgw6Q7BORAp7ut0d3nie4OXKwjiJ9UjX33ObTdBOGhd1OpjSifa4yQ3zhGRIx87ueFT3G2Bq8HsSOuFezdDENeCAxTXQJTZjxmqLT/oR+I+T1bIvtZlOtuhE9+FQOkc9JWjBvP6DsdHJLKft9pzi21MNIooGGntM33Mw3jfMXB9UNLNuOXzinCXhbpEUk8a6LqKjIgXwjS+Yhkju+Wuey8doLtuYrkYSNGNJeiIgkUZHJL0QG4FoKSbLPP/BgicngEyQOARAJdnDjJA4BEAl2cOMkDgEQCXZw4yQOARAJdnDjJA4BEAl2cOMkDgEQCXZw4yQOARAJdnDjJA4BEAl2cOMkDgEQCXZw4yQOARAJdnDjJA4BEAl/cZcb7geE5kFeoAAAAASUVORK5CYII=',
+  iconSize: [15, 15],
+  //iconAnchor: [16, 37],
+  popupAnchor: [0, -37]
+});
+
+
+function popUp(f,l){
+    var out = [];
+    if (f.properties){
+        for(key in f.properties){
+            out.push(key+": "+f.properties[key]);
+        }
+        l.bindPopup(out.join("<br />"));
+    }
+}
+var jsonTest = new L.GeoJSON.AJAX("Availabilities.geojson",{onEachFeature:popUp, pointToLayer: function (feature, latlng) {return L.marker(latlng,{icon:AvailabilitiesIcon})}});
+var jsonpTest = L.geoJson.ajax   ("Comparables.geojson",{onEachFeature:popUp, pointToLayer: function (feature, latlng) {return L.marker(latlng,{icon:ComparablesIcon})}});
+
+jsonTest.addTo(m);
+var overlays={
+"Availabilities":jsonTest,
+"Comparables":jsonpTest
+//,"jsonp":jsonpTest
+}
+
+var lc=L.control.layers(baseMaps,overlays);
+lc.addTo(m);
+</script>
+
+</body>
+</html>
